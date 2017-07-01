@@ -1,0 +1,136 @@
+	<!DOCTYPE html>
+	<html lang="PT-BR">
+	  <head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+		<!-- Optional theme -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+		<!-- Latest compiled and minified JavaScript -->
+		
+		<title>Projeto Integrador</title>
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<link href="css/estilo.css" rel="stylesheet">
+
+	   
+	  </head>
+	  <body>
+				<div class="container-fluid">
+				
+				<nav class="navbar navbar-default navbar-fixed-top navbar-inverse">
+					  <div class="container-fluid">
+					  
+						<div class="navbar-header">
+						  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						  </button>
+						  <a class="navbar-brand" href="index.html">MAKEOUT</a>
+						</div>
+
+						
+						<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						  <ul class="nav navbar-nav">
+							<li><a href="fotos.html">FOTOS<span class="sr-only">(current)</span></a></li>
+							<li><a href="eventos.html">EVENTOS</a></li>
+							<li><a href="videos.html">VIDEOS</a></li>
+							<li><a href="loja.html">LOJA</a></li>
+							<li class="active"><a href="#">FALE CONOSCO</a></li>
+							<li class="dropdown">
+							  <a href="videos.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+							  <ul class="dropdown-menu">
+								<li><a href="#">festa 1</a></li>
+								<li><a href="#">FESTA 2</a></li>
+								<li><a href="#">FESTA 3</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">Separated link</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">FACA PARTE</a></li>
+							  </ul>
+							</li>
+						  </ul>
+						  <form class="navbar-form navbar-left">
+							<div class="form-group">
+							  <input type="text" class="form-control" placeholder="Buscar">
+							</div>
+							<button type="submit" class="btn btn-default">ENVIAR</button>
+						  </form>
+						  <ul class="nav navbar-nav navbar-right">
+							<li><a href="#">SOBRE A FESTA</a></li>
+							<li class="dropdown">
+							  <a href="loja.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></a>
+							  <ul class="dropdown-menu">
+								<li><a href="#">Marco</a></li>
+								<li><a href="#">Another action</a></li>
+								<li><a href="#">Something else here</a></li>
+								<li role="separator" class="divider"></li>
+								<li><a href="#">Separated link</a></li>
+							  </ul>
+							</li>
+						  </ul>
+						</div><!-- /.navbar-collapse -->
+					  </div><!-- /.container-fluid -->
+					</nav>
+					<div class="jumbotron">
+					  <img class="principal img-responsive" src="image/logomakeoutparavideo.fw.png">
+					   <h2><<i><b>OPEN YOUR MIND</b></i>></h2>
+					</div>
+				
+				
+				<section id="corpo-full">
+					
+								
+						
+					<form method="post" id="fContato" action="mailto:kriulles@hotmail.com" oninput="calc_total();">
+						<fieldset id="usuario"><legend>Identificação do Usuário</legend>
+								<p><label for="cNome">Nome:</Label><input type="text" name="tNome" id="cNome" size="20" maxlength="30" placeholder="Nome Completo"/></p>
+								
+								<p><label for="cMail">E-mail:</label><input type="email" name="tMail" id="cMail" size="20" maxlength="40" placeholder="Digite seu email"/></p>
+								<fieldset id="sexo"><legend><b>Sexo</b></legend>
+								  <input type="radio" name="tSexo" id="cMasc" checked/><label for="cMasc">Masculino</label><br/>
+								  <input type="radio" name="tSexo" id="cFem"/><label for="cFem">Feminino</label></fieldset>
+								  
+								  
+							<p><label for="cNasc">Data de Nascimento:</label><input type="date" name="tNasc" id="cNasc"/></p>
+						</fieldset>
+
+							<
+							<fieldset id="mensagem"><legend><b>Mensagem do Usuário</b></legend>
+								
+								<p><label for="cMsg">Mensagem:</label>
+								<textarea name="tMsg" id="cMsg" cols="45" rows="5"placeholder="Deixe aqui sua mensagem"></textarea></p>
+							</fieldset>
+							
+
+							<button type="button" class="btn btn-default">ENVIAR</button>
+
+					</form>
+
+					</article>
+					</section>
+					
+				</div>
+				<div class="row">
+				
+					<footer id="rodape">
+					Copyright&copy; 2017 - by Adriano Kriullez<br/>
+					<a href="https://www.facebook.com/makeoutoficial/" target="_blank"><i>Facebook</i></a> | <a href="http://www.twitter.com"target="_blank"><i>Twitter</i></a>
+					</footer>
+            
+        
+				</div>
+				
+				<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+				<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	  </body>
+	</html>
